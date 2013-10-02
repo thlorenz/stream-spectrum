@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "A variety of streams to be used in samples and/or tests.",
   "main": "index.js",
+  "browser": {
+    "stream": "readable-stream"
+  },
   "scripts": {
     "test-main": "tap test/*.js",
     "test-0.8": "nave use 0.8 npm run test-main",
@@ -15,7 +18,9 @@
     "url": "git://github.com/thlorenz/stream-spectrum.git"
   },
   "homepage": "https://github.com/thlorenz/stream-spectrum",
-  "dependencies": {},
+  "dependencies": {
+    "readable-stream": "~1.1.9"
+  },
   "devDependencies": {
     "nave": "~0.4.3",
     "tape": "~1.0.4",
