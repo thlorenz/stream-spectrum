@@ -23,6 +23,7 @@ function TarpitWritable (opts) {
   if (!(this instanceof TarpitWritable)) return new TarpitWritable(opts);
   Writable.call(this, opts);
 
+  opts = opts || {};
   this._debug = opts.debug;
   this.throttle = opts.throttle || 0;
 }
