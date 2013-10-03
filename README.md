@@ -44,6 +44,25 @@ NumberReadable (opts)
 RandomNumberReadable (opts)
 ```
 
+###*readable/object*
+
+`require(stream-spectrum/readable/object)`
+
+```
+/**
+ * Generates objects with a count property that increases between the given from and to values.
+ * 
+ * @name ObjectReadable
+ * @function
+ * @param opts {Options}
+ *  - from: {Number} start value to generate
+ *  - to: {Number} end value to generate
+ *  - throttle: {Number} number of milliseconds to take to generate each number  
+ * @return {Stream} readable
+ */
+ObjectReadable (opts)
+```
+
 ## transform
 
 `require(stream-spectrum/transform/power)`
