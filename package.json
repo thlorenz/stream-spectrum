@@ -1,6 +1,6 @@
 {
   "name": "stream-spectrum",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A variety of streams to be used in samples and/or tests.",
   "main": "index.js",
   "browser": {
