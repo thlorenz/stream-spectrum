@@ -26,7 +26,7 @@
     "tape": "~1.0.4",
     "tap": "~0.4.3"
   },
-  "keywords": [],
+  "keywords": [ "stream", "streams", "test", "readable", "transform", "writable", "try", "sample", "example" ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
