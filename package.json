@@ -1,6 +1,6 @@
 {
   "name": "stream-spectrum",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A variety of streams to be used in samples and/or tests.",
   "main": "index.js",
   "browser": {
@@ -26,7 +26,17 @@
     "tape": "~1.0.4",
     "tap": "~0.4.3"
   },
-  "keywords": [ "stream", "streams", "test", "readable", "transform", "writable", "try", "sample", "example" ],
+  "keywords": [
+    "stream",
+    "streams",
+    "test",
+    "readable",
+    "transform",
+    "writable",
+    "try",
+    "sample",
+    "example"
+  ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
