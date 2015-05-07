@@ -1,22 +1,19 @@
 {
   "name": "stream-spectrum",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A variety of streams to be used in samples and/or tests.",
   "main": "index.js",
   "browser": {
     "stream": "readable-stream"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/thlorenz/stream-spectrum.git"
   },
   "homepage": "https://github.com/thlorenz/stream-spectrum",
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "keywords": [
     "stream",
     "streams",
