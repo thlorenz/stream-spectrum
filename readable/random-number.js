@@ -13,11 +13,11 @@ util.inherits(RandomNumberReadable, Readable);
  * 
  * @name RandomNumberReadable
  * @function
- * @param opts {Options}
- *  - min: {Number} minimum value to generate
- *  - max: {Number} maximum value to generate
- *  - throttle: {Number} number of milliseconds to take to generate each number  
- * @return {Stream} readable
+ * @param {Object} opts options
+ * @param {Number=} opts.min minimum value to generate
+ * @param {Number=} opts.max maximum value to generate
+ * @param {Number=} opts.throttle number of milliseconds to take to generate each number  
+ * @return {ReadableStream} readable
  */
 function RandomNumberReadable (opts) {
   if (!(this instanceof RandomNumberReadable)) return new RandomNumberReadable(opts);

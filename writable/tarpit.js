@@ -14,10 +14,10 @@ util.inherits(TarpitWritable, Writable);
  *
  * @name TarpitWritable
  * @function
- * @param opts {Options} 
- *  - debug {Boolean} if true written values are logged to the console
- *  - throttle {Number} number of milliseconds to delay each written chunk
- * @return {Stream} writable
+ * @param {Object} opts options
+ * @param {Boolean=} opts.debug if true written values are logged to the console
+ * @param {Number=}  opts.throttle number of milliseconds to delay each written chunk
+ * @return {WritableStream} writable
  */
 function TarpitWritable (opts) {
   if (!(this instanceof TarpitWritable)) return new TarpitWritable(opts);

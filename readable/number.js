@@ -13,11 +13,11 @@ util.inherits(NumberReadable, Readable);
  * 
  * @name NumberReadable
  * @function
- * @param opts {Options}
- *  - from: {Number} start value to generate
- *  - to: {Number} end value to generate
- *  - throttle: {Number} number of milliseconds to take to generate each number  
- * @return {Stream} readable
+ * @param {Object} opts options
+ * @param {Number=} opts.from start value to generate
+ * @param {Number=} opts.to end value to generate
+ * @param {Number=} opts.throttle number of milliseconds to take to generate each number  
+ * @return {ReadableStream} readable
  */
 function NumberReadable (opts) {
   if (!(this instanceof NumberReadable)) return new NumberReadable(opts);

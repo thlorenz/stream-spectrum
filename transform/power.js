@@ -16,9 +16,9 @@ util.inherits(PowerTransform, Transform);
  *
  * @name PowerTransform
  * @function
- * @param opts {Options}
- *  - throttle {Number} number of milliseconds to take to transform each number into its power  
- * @return {Stream} transform
+ * @param {Object} opts options
+ * @param {Number=} opts.throttle number of milliseconds to take to transform each number into its power  
+ * @return {TransformStream} transform
  */
 function PowerTransform (opts) {
   if (!(this instanceof PowerTransform)) return new PowerTransform(opts);
